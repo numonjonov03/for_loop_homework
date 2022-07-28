@@ -6,5 +6,7 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    s=lis1.title()
+    s=[]
+    for i in range(len(list1)):
+        s+=[list1[i].capitalize()]
     return s
