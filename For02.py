@@ -9,6 +9,6 @@ def main(n):
     s=""
     k=range(0,n)
     for i in k:
-        s+=str(k[i])+""
+        s+=str(k[i])+","
     s = s.strip(',')
     return s
