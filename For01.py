@@ -9,5 +9,5 @@ def main(n):
     Returns:
         list: return  answer
     """
-    s=range(o,n)
+    s=range(0,n)
     return list(s)
